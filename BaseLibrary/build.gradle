@@ -1,0 +1,11 @@
+configurations.maybeCreate("LibraryOne")
+artifacts.add("LibraryOne", file('libs/LibraryOne.aar'))
+
+configurations.maybeCreate("LibraryTwo")
+artifacts.add("LibraryTwo", file('libs/LibraryTwo.aar'))
+
+configurations.maybeCreate("CoreLibrary-debug")
+artifacts.add("CoreLibrary-debug", file('libs/CoreLibrary-debug.aar'))
+
+configurations.maybeCreate("CoreLibrary-release")
+artifacts.add("CoreLibrary-release", file('libs/CoreLibrary-release.aar'))
